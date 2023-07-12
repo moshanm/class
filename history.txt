@@ -1,0 +1,62 @@
+  270  mkdir git
+  271  cd git
+  295  git init
+  296  git commit
+  297  git config --global user.name "Mohan Shanmugavelu"
+  298  git config --global user.email "mohan.shanmugavelu@gmail.com"
+  299  git commit
+  302  git add .
+  303  git commit
+  304  git commit -m "first commit"
+  307  git status
+  308  git add 1.txt
+  309  git status
+  310  git commit -m "2 commit"
+  311  git status
+  312  git log
+  313  git config --list
+  314  git config --global core.editor "vi"
+  315  git config --list
+  316  git status
+  318  git status
+  319  git add .
+  320  git commt "thrid"
+  321  git commit "thrid"
+  322  git log
+  364  git
+  365  git --versoin
+  366  git --version
+  368  git
+  371  history |grep git
+  373  cd git
+  375  git init
+  379  git init
+  380  git status
+  381  git add 1.txt  11.txt  111.txt  1111.txt  11111.txt  111111.txt
+  382  git status
+  383  git commit
+  386  git status
+  387  git commit am -m "change"
+  388  git commit 1.txt -m "change"
+  389  git status
+  390  git commit -am  "third commit"
+  391  git show
+  392  git remote add class https://github.com/moshanm/class.git
+  393  git remote
+  396  vi gittokenforclassrepo
+  397  git push remote class
+  398  git push class master
+  399  cd git
+  401  git push class master
+  405  git commit -am "fourth"
+  406  git push class master
+  407  git add 22.txt 
+  408  git commit -am "fifth"
+  409  git push class master
+  410  git pull class master
+  414  git add txt.txt
+  415  git commit -am "6th"
+  416  git pull class master
+  418  git push class master
+  419  git branch
+  421  history |grep git >history.txt
